@@ -1,0 +1,9 @@
+xmlns="http://www.w3.org/2000/svg"
+
+            <li>Premium</li>
+            <li>Support</li>
+            <li>Download</li>
+            <li>Install App</li>
+            <li>Sign up</li>
+            <li>Login</li>
+
