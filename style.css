@@ -6,6 +6,7 @@
 .left{
 
     width: 25vw;
+    color: #fff;
     
 
 }
@@ -21,5 +22,15 @@
     list-style: none;
     display: flex;
     gap: 15px;
+    padding-top: 30px;
 
 }
+
+.home{
+
+    padding: 5px;
+}
+
+
+
+
