@@ -32,8 +32,12 @@
 }
 .library{
 
-    
+    display: flex;  /* Enables Flexbox */
+    align-items: center; /* Aligns buttons vertically */
+    gap: 10px; /* Adds spacing between buttons */
     min-height: 50vh;
+
+    
     
 }
 .heading{
@@ -55,6 +59,7 @@
 
     font-size: 25px;
     
+    
 }
 .librarybtn{
 
@@ -63,6 +68,7 @@
     display: flex;
     align-items: center;
     gap: 15px;
+    white-space: nowrap;
 }
 
 .librarybtn img{
@@ -72,24 +78,26 @@
 
 .librarybtn span{
 
-    font-size: 30px;
+    font-size: 20px;
 }
 .plus{
 
     border: none;
-    display: flex;
+    display: block;
     align-items: center;
     gap: 10px;
-    float: right;
+    /* float: right; */
     padding: 5px;
+    
     
     
 }
 .plus img{
 
-    width: 35px;
-
+    width: 25px;
+    
 }
+
 
 
 
