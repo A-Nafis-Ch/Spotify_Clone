@@ -30,56 +30,68 @@
 
     padding: 5px;
 }
-.heading{
-
-    width: 20px;
-    align-items: center;
-    display: flex;
-    
-    /* padding-top: 14px; */
-
-    
-}
 .library{
 
-    display: flex;
-    align-items: center;
-    gap: 14px;
-}
-.library h2{
-
-    font-size: 17px;
-    color: grey;
-}
-
-.footer{
-
-    display: flex;
-    align-items: center;
-    display: flex;
-    gap: 7px;
-}
-.footer a{
-
-
-    color: grey;
-    text-decoration: none;
-    font-size: 10px;
+    
+    min-height: 50vh;
     
 }
-.lang-but{
+.heading{
 
+    width: 25px;
+    align-items: center;
+    padding-top: 2px;
+    display: flex;
+    gap: 15px;
+
+    
+}
+.heading img{
+
+    width: 50px;
+}
+
+.heading h2{
+
+    font-size: 25px;
+    
+}
+.librarybtn{
+
+    color: #ffff;
+    border: none;
     display: flex;
     align-items: center;
+    gap: 15px;
 }
-.langbut{
 
-    border-radius: 15px;
-    width: 50px;
-    height: 20px;
-    border-color: #fff;
-    color: white;
-    align-items: center;
+.librarybtn img{
+
+    width: 24px;
 }
+
+.librarybtn span{
+
+    font-size: 30px;
+}
+.plus{
+
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    float: right;
+    padding: 5px;
+    
+    
+}
+.plus img{
+
+    width: 35px;
+
+}
+
+
+
 
 
