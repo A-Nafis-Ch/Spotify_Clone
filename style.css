@@ -1,12 +1,21 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Roboto", serif;
+    
+
+}
+
+.container{
+
+    height: 100vh;
 }
 
 .left{
 
     width: 25vw;
     color: #fff;
+    height: 90vh;
     
 
 }
@@ -14,6 +23,7 @@
 .right{
 
     width: 75vw;
+    height: 99vh;
     
 }
 .home ul li{
@@ -29,15 +39,12 @@
 .home{
 
     padding: 5px;
+    height: 20vh;
 }
 .library{
 
-    display: flex;  /* Enables Flexbox */
-    align-items: center; /* Aligns buttons vertically */
-    gap: 10px; /* Adds spacing between buttons */
-    min-height: 50vh;
-
     
+    min-height: 75vh;
     
 }
 .heading{
@@ -61,10 +68,108 @@
     
     
 }
-.librarybtn{
+.library-container {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Ensure spacing between elements */
+    width: 100%; /* Take full width of parent */
+}
 
-    color: #ffff;
+.librarybtn {
+    display: flex;
+    align-items: center; /* Align icon and text */
+    gap: 8px; /* Adjust spacing between icon and text */
     border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.plus {
+    display: flex;
+    align-items: center; /* Align the plus icon properly */
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.invert {
+    width: 20px; /* Adjust size if needed */
+    height: 20px;
+}
+
+.hyperlinks a{
+
+    text-decoration: none;
+    color: grey;
+    font-size: 10px;
+
+}
+
+
+.hyperlinks {
+    display: flex;
+    flex-wrap: wrap; /* Wrap links if they don’t fit in one line */
+    gap: 10px; /* Add spacing between links */
+}
+
+.library {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: space-between; /* Push hyperlinks to the bottom */
+    height: 50vh; /* Make the container take full viewport height */
+    padding-bottom: 20px; /* Prevent links from touching the bottom */
+}
+
+.header{
+
+    display: flex;
+    justify-content: space-between;
+    background-color: #141414;
+}
+
+.header > *{
+
+    padding: 20px;
+}
+.spotifyPlaylists{
+
+    padding: 10px;
+}
+.spotifyPlaylists h1{
+
+    font-size: 20px;
+}
+.spotifyPlaylists .card{
+
+    width: 200px;
+    border-radius: 5px;
+    background-color: #3b3b3b;
+}
+
+.card img{
+
+    width: 95%;
+    object-fit: contain;
+    align-items: center;    
+    
+
+}
+.card h2, p{
+
+    font-size: 15px;
+    color: #ffff;
+}
+
+.card{
+
+    /* border: 2px solid red; */
+}
+.card > *{
+
+    padding: 3px;
+}
+.cardContainer{
+
     display: flex;
     align-items: center;
     gap: 15px;
