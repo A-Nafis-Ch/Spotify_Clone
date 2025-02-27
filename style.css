@@ -301,3 +301,16 @@
     padding: 10px 0;
     margin-top: 5px;
 }
+
+.songslist ul{
+
+    padding: 0 40px
+
+}
+
+.songslist ul li {
+
+    list-style-type: decimal;
+
+}
+
