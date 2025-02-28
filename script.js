@@ -28,8 +28,10 @@ getSongs();
 async function Songs() {
 
     let songs = await getSongs();
-    // console.log('Songs are as follows:');
+    console.log('Songs are as follows:');
     console.log(songs);
+
+    let songUL = document.querySelector('.songList')
 
     //Play audio
 
@@ -37,5 +39,5 @@ async function Songs() {
     // audio.play();
 
 }
-
+getSongs();
 Songs();
