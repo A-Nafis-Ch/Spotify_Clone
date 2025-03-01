@@ -16,7 +16,9 @@ async function getSongs() {
 
         if (element.href.endsWith(".mp3")) {
 
-            songs.push(element.href);
+            // Extract just the filename
+            let songName = element.href.split('/').pop();
+            songs.push(decodeURIComponent(songName)); // Decode special characters
         }
     }
     // console.log(songs);
@@ -31,7 +33,20 @@ async function Songs() {
     console.log('Songs are as follows:');
     console.log(songs);
 
-    let songUL = document.querySelector('.songList')
+    let songUL = document.querySelector('.songslist').getElementsByTagName('ul')[0];
+    for (const song of songs) {     
+
+        songUL.innerHTML = songUL.innerHTML + `<li> 
+        <div class="listsongs">
+                            <img class="invert" src="logos/playbar/queue_music.svg" alt="">
+
+                            <div class="song"> ${songs} </div>
+                            <div class="artist">Artist</div>
+
+                            <img class="invert" src="logos/playbar/play_arrow.svg" alt="">
+                        </div></li>`;
+        
+    };
 
     //Play audio
 

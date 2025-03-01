@@ -314,3 +314,16 @@
 
 }
 
+.listsongs{
+
+    display: flex;
+    gap: 20px;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border: 1px solid #ffff;
+    cursor: pointer;
+    
+}
+
