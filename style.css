@@ -310,7 +310,9 @@
 
 .songslist ul li {
 
-    list-style-type: decimal;
+    list-style: none
+
+    /* list-style-type: decimal; */
 
 }
 
@@ -325,5 +327,9 @@
     border: 1px solid #ffff;
     cursor: pointer;
     
+}
+.songslist{
+
+    overflow-y: scroll;
 }
 
